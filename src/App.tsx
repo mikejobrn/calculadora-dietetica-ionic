@@ -35,9 +35,11 @@ import './theme/variables.css';
 
 setupIonicReact();
 
+const basename = import.meta.env.BASE_URL; // Base URL do Vite
+
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactRouter basename={basename}>
       <IonRouterOutlet>
         <Route exact path="/home">
           <Home />
