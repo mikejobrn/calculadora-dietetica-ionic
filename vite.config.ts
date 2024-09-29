@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/calculadora-dietetica-ionic',
+  base: '/calculadora-dietetica-ionic/',
   plugins: [
     react(),
     legacy()
