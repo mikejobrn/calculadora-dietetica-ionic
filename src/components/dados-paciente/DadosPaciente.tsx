@@ -5,11 +5,11 @@ const DadosPaciente: React.FC = () => {
   return (
     <div id="container">
       <IonList lines="none">
-        <IonInput type="number" fill="outline" placeholder="Peso">
+        <IonInput type="number" inputMode="decimal" fill="outline" placeholder="Peso">
           <IonText slot="end">kg</IonText>
         </IonInput>
 
-        <IonInput type="number" fill="outline" placeholder="Altura">
+        <IonInput type="number" inputMode="numeric" fill="outline" placeholder="Altura">
           <IonText slot="end">m</IonText>
         </IonInput>
 
